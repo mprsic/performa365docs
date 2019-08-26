@@ -40,12 +40,17 @@ Administrative enrollment
 This action can be performed by 
 :ref:`Enrollment Admin <enrollment_administrator>`.
 
-#. Go to **Catalog** > **Courses**. Specific courses can be found using search and filtering options on the **Catalog** page.
-#. Click the tile of the course you wish to add learners to.
-#. You will be redirected to the course page. 
-#. Each course page has a sub-menu with following menu items: **Home**, **Activities**, **Documents** and **Manage**. 
-#. Click on **Manage** to open a dropdown menu. 
-#. Choose **Administrative enrollment** from the dropdown menu.
+#. Click on **Administrative enrollment** in the main navigation menu.
+#. You will be redirected to the new page with a list of all created assignments. 
+#. The assignments table has following columns: **Learning period**, **Description**, **Display name**, **Number of enrolled learners**, **Creation date**; **Last update**, **Due date**, **Status**, **Assignmnet procedure** and **Actions**. 
+#. At the bottom of the page there are two buttons: **Add static assignment** and **Add dynamic assignment**. 
+
+
+Static assignments
+***************************
+
+#. Click on action button **Add static assignment**.
+#. The first step of Add/Edit wizard opens up below.
 #. **Administrative enrollment** page is shown on top containing list of all enrollments and action button **Add**.
 #. Click **Add** to enroll learners.
 #. **Add learners** form opens below.
