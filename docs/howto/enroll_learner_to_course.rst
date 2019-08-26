@@ -74,12 +74,14 @@ Dynamic assignments
 Assignment query builder (assignment's second step)
 *****************************************************
 
-This is the second step of Add/Edit assignment wizard. In this step, a tool called query builder is used to select learners based on different criteria.
+This is the second step of Add/Edit assignment wizard. In this step, a tool called query builder is used to select learners based on specific criteria.
 When you first get to this step, a single tile will be displayed. This tile represents *query group*. Query groups are used to combine search criteria. There is a maximum of three query groups in this tool. 
 
 To create a query follow these steps:
 
-#. **Choose a logical operator.** In the upper right corner of the query builder tile, click on either **AND** or **OR**. Choosing a logical operator **AND** means that all conditions must be true for the complex expression to be true.
+#. **Choose a logical operator.** In the upper right corner of the query builder tile, click on either **AND** or **OR**. Choosing a logical operator **AND** means that all conditions must be true for the complex expression to be true. 
+
+For example, you need to assign a task to John Smith from Sales Department. If you search by name and type in "John Smith" you will get three results because there are three people in the organization called "John Smith". If you add another search criteria and type "Sales" to search by department,  the results will be reduced to two people, because those two fulfill both requirements - they are both called John Smith and work in the sales department. You can add another criteria and type in "Sales representative" because you know that this is the job title of the John Smith you are looking for. This will narrow your search even more and show only one result because there is only one John Smith who fullfils all requirements.  If you choose **OR**, either requirement is true, the complex expression is true.
 #. **Enter at least three characters to search by keyword.** You can search by anything: name, organization, group, job title, etc. Just start typing at three characters and you will be shown all the options in the dropdown menu.
 Let's say an assignment admin needs to make sure all office assistants within sales department must complete a specific course. The admin can search by job title, but this will result in showing all candidates with this job title from all departments, not just sales. To get more specific result, they can do the following:
 
