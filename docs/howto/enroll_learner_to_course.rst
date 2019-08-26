@@ -11,7 +11,7 @@ There are two ways to enroll learners to courses:
 .. _self_enrollment:
 
 Self enrollment
-***************
+^^^^^^^^^^^^^^^^
 
 .. 
 This action can be performed by 
