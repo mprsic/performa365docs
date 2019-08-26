@@ -34,7 +34,7 @@ To self-enroll to the course a learner must perform the following steps:
 .. _administrative_enrollment:
 
 Administrative enrollment
-***************************
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. 
 This action can be performed by 
