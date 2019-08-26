@@ -79,7 +79,11 @@ When you first get to this step, a single tile will be displayed. This tile repr
 
 To create a query follow these steps:
 
-#. **Choose a logical operator.** In the upper right corner of the query builder tile, click on either **AND** or **OR**. Logical operators are 
+#. **Choose a logical operator.** In the upper right corner of the query builder tile, click on either **AND** or **OR**. Choosing a logical operator **AND** means that all conditions must be true for the complex expression to be true.
+#. **Enter at least three characters to search by keyword.** You can search by anything: name, organization, group, job title, etc. Just start typing at three characters and you will be shown all the options in the dropdown menu.
+Let's say an assignment admin needs to make sure all office assistants within sales department must complete a specific course. The admin can search by job title, but this will result in showing all candidates with this job title from all departments, not just sales. To get more specific result, they can do the following:
+
+
 **Learners to enroll** displays a list of users eligible for enrollment. Choose users you want to enroll by clicking **Enroll** from the **Actions** column of each user. If a user has finished that course or is already enrolled to it, an information icon will be displayed in this column informing you of user's status.
 #. As you pick users from the list, they are displayed in **Selected learners** panel.
 #. When you are done selecting learners, click **Add** to finish the enrollment.
