@@ -55,9 +55,8 @@ Static assignments
 #. **Enrollment reason** is required. Text entered into this field is sent to the learner as a part of the email message informing them they've been enrolled into the course/program.
 #. **Summary** is an optional field. It contains additional information about assignment in text format. This field has character limit of 500.
 #. **Course/program** is selected from the dropdown menu. Only active courses and programs will be shown in this list.
-#. **Number of days to finish** will tell the learner how much time they've got to complete the course/program after they've been enrolled into it.
-#. Enter **Valid until** using datetime picker control. All learners enrolled to this course must complete it before this date.
-#. When all required fields have been filled in, click **Next** to continue to the second step which will be the same for both static and dynamic assignments.
+#. Enter **Finish** using datetime picker control. All learners enrolled to this course must complete it before this date.
+#. When all required fields have been filled in, click **Next** to continue to the second step (assignment query builder) which will be the same for both static and dynamic assignments.
 
 Dynamic assignments
 ***************************
@@ -69,13 +68,14 @@ Dynamic assignments
 #. **Summary** is an optional field. It contains additional information about assignment in text format. This field has character limit of 500.
 #. **Course/program** is selected from the dropdown menu. Only active courses and programs will be shown in this list.
 #. **Number of days to finish** will tell the learner how much time they've got to complete the course/program after they've been enrolled into it.
-#. Enter **Valid until** using datetime picker control. All learners enrolled to this course must complete it before this date.
-#. When all required fields have been filled in, click **Next** to continue to the second step which will be the same for both static and dynamic assignments.
+#. Enter **Valid until** using datetime picker control. Service will be automatically adding eligible learners until this date.
+#. When all required fields have been filled in, click **Next** to continue to the second step (assignment query builder) which will be the same for both static and dynamic assignments.
 
-Assignment query (assignments' second step)
-*******************************************
+Assignment query builder (assignment's second step)
+*****************************************************
 
-#. Enter **Enrollment reason**.
+This is the second step of Add/Edit assignment wizard. In this step, a tool called query builder is used to select learners based on different criteria.
+
 #. **Learners to enroll** displays a list of users eligible for enrollment. Choose users you want to enroll by clicking **Enroll** from the **Actions** column of each user. If a user has finished that course or is already enrolled to it, an information icon will be displayed in this column informing you of user's status.
 #. As you pick users from the list, they are displayed in **Selected learners** panel.
 #. When you are done selecting learners, click **Add** to finish the enrollment.
