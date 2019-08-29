@@ -116,9 +116,10 @@ You can add another criteria and type in "Sales representative" because you know
 
 If you choose **OR**, if either requirement is true, the complex expression is true.
 
-.. tip:: For example, 
+.. tip:: For example, you need to enroll people from Sales and HR to some course. If you type in "Sales" into search box and select Sales department from the dropdown, all people from that department will appear in the preview result. In our example, there are 12 of them. If **OR** is turned on and you type "HR" into search box and select HR Department, **both** departments will be included in the query because both fulfill requirements: departments are either Sales **OR** HR. In our example, 18 people in total will be eligible for enrollment.
 
-#. **Enter at least three characters to search by keyword.** You can search by anything: name, organization, group, job title, etc. Just start typing at three characters and you will be shown all the options in the dropdown menu.
+#. **Enter at least twocharacters to search by keyword.** You can search by anything: name, organization, group, job title, etc. Just start typing at least two characters and you will be shown all the options in the dropdown menu. You'll notice that results have different icons next to them to better describe their type. For example, if you type "IT", the result you get could be just "IT" with a building icon next to it meaning it's an organization department. Another result could be "IT specialist" with a handshake icon which means it's a job title. By selecting an item from  the dropdown menu, it will appear on the list and number of users fullfiling that criteria will be displayed at the bottom of the tile.
+
 Let's say an assignment admin needs to make sure all office assistants within sales department must complete a specific course. The admin can search by job title, but this will result in showing all candidates with this job title from all departments, not just sales. To get more specific result, they can do the following:
 
 
