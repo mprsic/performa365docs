@@ -79,7 +79,7 @@ When you first get to this step, a single tile will be displayed. This tile repr
 
 To create a query follow these steps:
 
-#. **Choose a logical operator.** In the upper right corner of the query builder tile, click on either **AND** or **OR**. 
+1. **Choose a logical operator.** In the upper right corner of the query builder tile, click on either **AND** or **OR**. 
 
 Choosing a logical operator **AND** means that all conditions must be true for the complex expression to be true. 
 
@@ -116,12 +116,30 @@ You can add another criteria and type in "Sales representative" because you know
 
 If you choose **OR**, if either requirement is true, the complex expression is true.
 
-.. tip:: For example, you need to enroll people from Sales and HR to some course. If you type in "Sales" into search box and select Sales department from the dropdown, all people from that department will appear in the preview result. In our example, there are 12 of them. If **OR** is turned on and you type "HR" into search box and select HR Department, **both** departments will be included in the query because both fulfill requirements: departments are either Sales **OR** HR. In our example, 18 people in total will be eligible for enrollment.
+.. tip:: For example, you need to enroll people from Sales and HR to some course. If you type in "Sales" into search box and select Sales department from the dropdown, all people from that department will appear in the preview result. In our example, there are 12 of them. 
 
-#. **Enter at least twocharacters to search by keyword.** You can search by anything: name, organization, group, job title, etc. Just start typing at least two characters and you will be shown all the options in the dropdown menu. You'll notice that results have different icons next to them to better describe their type. For example, if you type "IT", the result you get could be just "IT" with a building icon next to it meaning it's an organization department. Another result could be "IT specialist" with a handshake icon which means it's a job title. By selecting an item from  the dropdown menu, it will appear on the list and number of users fullfiling that criteria will be displayed at the bottom of the tile.
+.. image:: query5.png
+   :align: center
+   
+   
+If **OR** is turned on and you type "HR" into search box and select HR Department, **both** departments will be included in the query because both fulfill requirements: departments are either Sales **OR** HR. In our example, 18 people in total will be eligible for enrollment.
 
-Let's say an assignment admin needs to make sure all office assistants within sales department must complete a specific course. The admin can search by job title, but this will result in showing all candidates with this job title from all departments, not just sales. To get more specific result, they can do the following:
+.. image:: query6.png
+   :align: center
 
+2. **Enter at least two characters to search by keyword.** You can search by anything: name, organization, group, job title, etc. Just start typing at least two characters and you will be shown all the options in the dropdown menu. You'll notice that results have different icons next to them to better describe their type. For example, if you type "IT", the result you get could be just "IT" with a building icon next to it meaning it's an organization department. Another result could be "IT specialist" with a handshake icon which means it's a job title. By selecting an item from  the dropdown menu, it will appear on the list and number of users fullfiling that criteria will be displayed at the bottom of the tile.
+
+3. **Select criteria from the searchbox dropdown menu.** You can have multiple search criteria within one query tile. Query results you get will vary, depending on logical operator you choose as explained earlier.
+
+4. **Add one or two more queries (optional)**. You can refine your results even further by adding one or more queries. In the previous example, you wanted to enroll employees from Sales and Hr Department. Let's say that managers don't need to get this assignment. What you can do is add another query group. A new tile opens up with two options: **AND** will add a certain number of users depending on the selection in the new tile, **Except** will exclude some users. Choose "Except" and enter the criteria in the search box. You don't need people with manager job titles in this assignment, so pick those from the dropdown list. Final query result will not have people with manager positions.
+
+.. image:: query7.png
+   :align: center
+   
+Now let's assume there is someone who would like to complete the course and her name is Lucy Locket. Lucy is neither in Sales nor HR so we need to add a new criteria. To do that we can click on **Add logic query** to open up new query group and select **And**. After that we need to type Lucy's name into the searchbox and select her from the list. Now that we have everyone we need, it's time to click on **Run query** to see the preview of all the people who will be assigned this course.
+
+.. image:: query8.png
+   :align: center
 
 **Learners to enroll** displays a list of users eligible for enrollment. Choose users you want to enroll by clicking **Enroll** from the **Actions** column of each user. If a user has finished that course or is already enrolled to it, an information icon will be displayed in this column informing you of user's status.
 
