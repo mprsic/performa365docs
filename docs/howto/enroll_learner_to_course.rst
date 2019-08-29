@@ -107,7 +107,7 @@ You can add another criteria and type in "Sales representative" because you know
 
 
 
-.. image:: query3.png
+.. image:: query4.png
    :align: center
 
 .. 
