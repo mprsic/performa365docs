@@ -83,7 +83,36 @@ To create a query follow these steps:
 
 Choosing a logical operator **AND** means that all conditions must be true for the complex expression to be true. 
 
-.. tip:: For example, you need to assign a task to John Smith from Sales Department. If you search by name and type in "John Smith" you will get three results because there are three people in the organization called "John Smith". If you choose **AND**, then add another search criteria and type "Sales" to search by department,  the results will be reduced to two people, because those two fulfill both requirements - they are both called John Smith and work in the sales department. You can add another criteria and type in "Sales representative" because you know that this is the job title of the John Smith you are looking for. This will narrow your search even more and show only one result because there is only one John Smith who fullfils all requirements.  
+.. tip:: For example, you need to assign a task to John Smith from Sales Department. If you search by name and type in "John Smith" you will get three results because there are three people in the organization called "John Smith". 
+
+.. image:: query1.png
+   :align: center
+
+.. 
+
+
+If you choose **AND**, then add another search criteria and type "Sales" to search by department,  the results will be reduced to two people, because those two fulfill both requirements - they are both called John Smith and work in the sales department. 
+
+.. image:: query2.png
+   :align: center
+
+.. 
+
+
+You can add another criteria and type in "Sales representative" because you know that this is the job title of the John Smith you are looking for. This will narrow your search even more and show only one result because there is only one John Smith who fullfils all requirements.  
+
+
+.. image:: query3.png
+   :align: center
+
+
+
+.. image:: query3.png
+   :align: center
+
+.. 
+
+
 
 If you choose **OR**, if either requirement is true, the complex expression is true.
 
