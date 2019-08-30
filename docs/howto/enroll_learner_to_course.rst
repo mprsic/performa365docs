@@ -148,6 +148,10 @@ Now let's assume there is someone who would like to complete the course and her 
 
 4. **Run query**. When you select "Run query" a list of users will be displayed below. The users will be shown in table with columns **Display name**, **Email**, **Course completed**, **Already enrolled in course** and **Actions**. If user is already enrolled in course, a checkmark in that column will be selected and that user will not be assigned to the course. If there are such users in your query, a message will appear below reminding you of this.
 
+.. image:: query9.png
+   :align: center
+
+
 5. **Select "Finish"**. By clicking on action button **Finish** your assignment will be done. You will be notified when the action is in progress and also when it is completed.
 
 
@@ -165,3 +169,7 @@ You can delete assignments by clicking the *Delete** icon in the "Actions" colum
 
 #. **Delete and remove learners** - assignment will be deleted and all learners will be unenrolled from the course.
 #. **Delete and leave learners enrolled** - assignment will be deleted but learners will stay enrolled in the course. However, their status will be changed to self-enrolled which means they will be able to self-disenroll from the course if they wish so.
+
+.. image:: query10.png
+   :align: center
+
