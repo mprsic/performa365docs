@@ -49,6 +49,8 @@ This action can be performed by
 Add static assignment
 ***************************
 
+.. tip:: This type of assignment is used if the task is not recurring. For example, you need to enroll specific people to specific course. They need to complete it becouse it is required of them for some reason, but it is unlikely that this task will be assigned to anyone else in your company any time soon.
+
 #. Click on the action button **Add static assignment** below the list of assignments.
 #. The first step of Add/Edit wizard opens up below.
 #. Assignments can be created for courses or programs. Check the appropriate radio button in the **Assignment for** section.
@@ -60,6 +62,8 @@ Add static assignment
 
 Dynamic assignments
 ***************************
+
+.. tip:: This type of assignment is used for recurring tasks. For example, anyone in your company who is working with personal information needs to be familiar with Data Protection Act. Those people will usually be added to groups, and the service will go through these groups every day to see if there are any new users elligible for the task. If so, they will be automatically assigned the course.
 
 #. Click on the action button **Add dynamic assignment**.
 #. The first step of Add/Edit wizard opens up below.
