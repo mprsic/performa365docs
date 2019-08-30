@@ -157,4 +157,7 @@ On the second step of the wizard, you will be able to preview and change your in
 Delete Assignment
 *******************
 
-You can delete assignments by clicking the *Delete** icon in the "Actions" column of the assignment list. Pop-up window appears asking you to type in a reason 
+You can delete assignments by clicking the *Delete** icon in the "Actions" column of the assignment list. Pop-up window appears asking you to type in a reason for unenrollment. There are also two options you can choose:
+
+#. **Delete and remove learners** - assignment will be deleted and all learners will be unenrolled from the course.
+#. **Delete and leave learners enrolled** - assignment will be deleted but learners will stay enrolled in the course. However, their status will be changed to self-enrolled which means they will be able to self-disenroll from the course if they wish so.
