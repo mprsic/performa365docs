@@ -141,7 +141,20 @@ Now let's assume there is someone who would like to complete the course and her 
 .. image:: query8.png
    :align: center
 
-**Learners to enroll** displays a list of users eligible for enrollment. Choose users you want to enroll by clicking **Enroll** from the **Actions** column of each user. If a user has finished that course or is already enrolled to it, an information icon will be displayed in this column informing you of user's status.
 
-#. As you pick users from the list, they are displayed in **Selected learners** panel.
-#. When you are done selecting learners, click **Add** to finish the enrollment.
+4. **Run query**. When you select "Run query" a list of users will be displayed below. The users will be shown in table with columns **Display name**, **Email**, **Course completed**, **Already enrolled in course** and **Actions**. If user is already enrolled in course, a checkmark in that column will be selected and that user will not be assigned to the course. If there are such users in your query, a message will appear below reminding you of this.
+
+5. **Select "Finish"**. By clicking on action button **Finish** your assignment will be done. You will be notified when the action is in progress and also when it is completed.
+
+
+Edit Assignments
+************************
+
+Assignments can be edited by clicking the **Edit** icon in the "Actions" column of the assignment list. Edit form will open up below and you will be able to change some fields. Non-editable fields will be disabled. 
+On the second step of the wizard, you will be able to preview and change your initial query. Same rules apply as for adding an assignment (as described above).
+
+
+Delete Assignment
+*******************
+
+You can delete assignments by clicking the *Delete** icon in the "Actions" column of the assignment list. Pop-up window appears asking you to type in a reason 
