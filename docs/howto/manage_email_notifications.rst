@@ -135,8 +135,8 @@ Regions #scheduleChange - #endScheduleChange and #locationChange - #endlocationC
 
 . _N1.6:
 
-*N1.5 Schedule change notification*
-**************************************
+*N1.6 Schedule cancellation notification*
+******************************************
 
 This notification is sent  if the schedule had been cancelled. The notification will be sent to both schedule instructors and learners who were enorolled to this schedule.
 
