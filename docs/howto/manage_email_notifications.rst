@@ -59,6 +59,19 @@ Configure E-mail Notifications
 E-mail Notifications Messages
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. _N1.1:
+
+*N1.1 List of unfinished courses*
+**************************************
+
+This notification is sent weekly to managers in case there are subordinates which haven't completed a course they were administratively enrolled to. The notifications contains a list of unfinished courses and names of employees who haven't completed their assignments.
+Variables that can be used in the body of this e-mail notification are:
+
+	* {{FirstName}} - learner's first name
+	* {{EducationNameHyperLink}} - link to the homepage of the unfinished course
+	* {{NumberOfUnfinishedLearners}} - number of learners who were administratively enrolled to the course but haven't completed it
+	
+
 .. _N1.2:
 
 *N1.2 Course enrollment notification*
@@ -91,15 +104,14 @@ Region #disenrollmentReason - #enddisenrollmentReason is used to conditionally d
 *N1.4 Course activity schedule enrollment notice*
 **************************************************
 
-This notification is sent to learners when they enroll into schedule for classroom/virtual classroom activity.
+
+This notification is sent weekly to learners who are enrolled into course with classroom/virtual classroom activities but havenn't chosen a schedule for those. The notification is used to encourage learners to complete courses.
 Variables that can be used in the body of this e-mail notification are:
 
 	* {{FirstName}} - learners's first name
-	* {{ActivityName}} - classroom/virtual classroom activity related to the schedule
-	* {{EducationName}} - course name
-	* {{StartDate}} - schedule start date
-	* {{StartTime}} - schedule start time
-	* {{Location}} - schedule location
+	* {{EducationNameHyperLink}} - link to the homepage of the course
+	* {{ScheduleCatalogHyperLink}} - course page containing a list of available schedules for the classroom/virtual classroom type of activity
+	
 
 .. _N1.5:
 
@@ -121,6 +133,22 @@ Variables that can be used in the body of this e-mail notification are:
 
 Regions #scheduleChange - #endScheduleChange and #locationChange - #endlocationChange are used to conditionally display text. E-mail notification will contain text in those regions depending on what has been changed: schedule date/time, location or both. 
 
+. _N1.6:
+
+*N1.5 Schedule change notification*
+**************************************
+
+This notification is sent  if the schedule had been cancelled. The notification will be sent to both schedule instructors and learners who were enorolled to this schedule.
+
+Variables that can be used in the body of this e-mail notification are:
+
+	* {{FirstName}} - learner's/schedule instructor's first name
+	* {{ActivityName}} - activity related to schedule change
+	* {{StartDate}} - schedule start date
+	* {{StartTime}} - schedule start time
+	* {{EducationNameHyperLink}} - link to the homepage of the course
+	
+	
 .. _N1.8:
 
 *N1.8 Schedule reminder*
@@ -132,7 +160,7 @@ Variables that can be used in the body of this e-mail notification are:
 
 	* {{FirstName}} - learner's first name
 	* {{ActivityName}} - classroom/virtual classroom activity name
-	* {{EducationName}} - course name
+	* {{EducationNameHyperLink}} - link to the homepage of the course
 	* {{StartDate}} - schedule start date
 	* {{StartTime}} - schedule start time
 	* {{Location}} - schedule location
@@ -173,7 +201,7 @@ Variables that can be used in the body of this e-mail notification are:
 *N1.14 Notification of completed course*
 ******************************************
 
-This message is sent to learners when they complete the course.
+This message is sent to learners when they have completed the course.
 Variables that can be used in the body of this e-mail notification are:
 
 	* {{FirstName}} - learner's first name
