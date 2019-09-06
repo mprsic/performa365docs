@@ -199,7 +199,7 @@ Variables that can be used in the body of this e-mail notification are:
 	* {{StartTime}} - schedule start time
 	* {{EndTime}} - schedule end time
 	* {{Location}} - schedule location
-	* {{EducationUrl}} - link to the course the schedule is related to
+	* {{EducationHomePageUrl}} - link to the course the schedule is related to
 
 .. _N1.14:
 
