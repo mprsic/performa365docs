@@ -69,6 +69,7 @@ Variables that can be used in the body of this e-mail notification are:
 
 	* {{FirstName}} - learner's first name
 	* {{EducationNameHyperLink}} - link to the homepage of the unfinished course
+	* {{EducationNameWithReportHyperLink}} - link to the corresponding report
 	* {{NumberOfUnfinishedLearners}} - number of learners who were administratively enrolled to the course but haven't completed it
 	
 
