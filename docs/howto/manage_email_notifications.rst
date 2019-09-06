@@ -109,8 +109,12 @@ This notification is sent weekly to learners who are enrolled into course with c
 Variables that can be used in the body of this e-mail notification are:
 
 	* {{FirstName}} - learners's first name
-	* {{EducationNameHyperLink}} - link to the homepage of the course
-	* {{ScheduleCatalogHyperLink}} - course page containing a list of available schedules for the classroom/virtual classroom type of activity
+	* {{ActivityName}} - activity related to the schedule
+	* {{EducationName}} - course name
+	* {{EducationNameHyperLink}} - link to the homepage of the course	
+	* {{ScheduleCatalogHyperLink}} - adds text "Link" to the notification that acts as a hyperlink leading to the course page containing a list of available schedules
+	* {{ScheduleCatalogHyperLinkOnlyHref}} - allows entering custom text as a hyperlink to the course page containing a list of available schedules
+	* {{UserDisplayName}} - learner's display name
 	
 
 .. _N1.5:
