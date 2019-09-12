@@ -13,7 +13,7 @@ Change the Logo
 #. To add your logo, on **User interface customization** page click on action button *Upload logo*.
 #. A modal form **Upload logo** opens up.
 #. Click on action button *Choose file from the computer* and select your image.
-#. Selected image will appear on the modal form. A cropping tool will be placed above your logo showing the ratio of the output image. For the cropper to work properly, the ratio of the image should be 3:1.
+#. Selected image will appear on the modal form. A cropping tool will be placed above your logo showing the ratio of the output image. For the cropper to work properly, image size should be 150 x 50px.
 #. Move and resize the cropper tool until you are satisfied with the result.
 #. Click on action button *Upload*.
 #. Your final image will be resized to 150 x 50px and placed in the middle of the header bar.
