@@ -13,18 +13,18 @@ About
 
 .. 
 
-**Catalog** shows all types of learning content currently available in the system. Currently, catalog shows *Courses* and *Exams* which are both listed in the submenu of the **Catalog** page. *Exams* (1) are only visible to exam administrators and exam creators. 
+**Catalog** shows all types of learning content available in the system. Currently, catalog shows *Courses* and *Exams* which are both listed in the submenu of the **Catalog** page. *Exams* (1) are only visible to exam administrators and exam creators. 
 
 .. 
 
-The **Ribbon** below the catalog menu contains action button *New course* (2) only visible to catalog administrators. The right side of the ribbon has icons for sorting and displaying the results as well as the magnifying glass icon (3) which opens and closes the panel with search and filtering options. *Show deactivated educations* checkbox (4) on this panel is only visible to catalog administrator. 
+On top of the central panel there is the action button *New course* (2) only visible to catalog administrators. The navigation panel on the left side has search and filtering options (3). *Show deactivated educations* checkbox (4) on this panel is only visible to catalog administrator. 
 
 .. _courses:
 
 Courses
 **********
 
-When selected from the submenu, the **Courses** page is displayed to the user showing courses depending on user's application role and course's visibility property. There are three types of visibility:
+When **Courses** tab is selected, courses will be displayed to the user according to user's application role and course's visibility property. There are three types of visibility:
 
 * **Public and self-enroll** - all users can see the course in the catalog and self-enroll to the course.
 * **View only** - all users can see the course in the catalog but cannot self-enroll to the course.
