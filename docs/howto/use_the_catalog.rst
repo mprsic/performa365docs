@@ -8,7 +8,7 @@ All application roles can browse the catalog however some additional, management
 About
 ******
 
-.. image:: catalog-saas.png
+.. image:: catalog-screenshot.png
    :align: center
 
 .. 
