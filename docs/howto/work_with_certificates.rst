@@ -22,10 +22,10 @@ Certificate template can contain following variables:
 
 * {{EducationName}} – course name
 * {{UserDisplayName}} – user's display name
-* {{CompletionDate}} – date of course completion
+* {{CompletionDate}} – date of course completion. Date will be in short format according to your regional settings. For example, if your tenant's regional settings are set to "English", June 26th 2010 will be displayed as 6/26/2010. 
 * {{CompletionTime}} – time of course completion
 * {{EducationDurationDays}} – total course duration in days (rounded)
-* {{EducationDurationHours}} – total course duration in days (rounded)
+* {{EducationDurationHours}} – total course duration in hours (rounded)
 * {{EducationDurationHoursMinutes}} – total course duration, in hours and minutes
 
 View Certificates as a Learner
