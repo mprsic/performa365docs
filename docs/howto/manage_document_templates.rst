@@ -7,7 +7,15 @@ Application roles needed to manage document templates: :ref:`Education Process A
 
 About Document Templates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Document templates are used for auto-generated documents, such as a cerificate of a competed course. Information such as the course name, learner's name, date of compleation and total course duration can be displayed in a generated document. The list of variables which can be used in a particular template is shown on the place where template is used. For example, on the course creation form, the creator can see a list of variables to be inserted in the user's certificate and thus choose a template which contains these variables.
+Document templates are used for auto-generated documents, such as cerificate for completed course. Information like the course name, learner's name, date of completion and total course duration can be displayed in a generated document. The list of variables which can be used in a particular template is shown in the place where template is used. For example, on the course creation form, the creator can see a list of variables to be inserted in the user's certificate and thus choose a template which contains these variables.
+
+Triggers that generate documents
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Document is created when a certain action happens. For example, when a learner completes a course, their status in the course will change to "finished" which will trigger a mechanism that checks if the course is completed successfuly, and if so, it will create a certificate of completion for that particular learner.
+
+How to make a template
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Your template should be a Word 2007 document or newer. Variables which will be used in your template should be inside two sets of curly brackets {{}}. List of variables and explanation what will they look like in generated template can be found :ref:`here <variables_for_documents>`.
 
 Add a Document Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
