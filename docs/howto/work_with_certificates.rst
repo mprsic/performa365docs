@@ -13,6 +13,8 @@ To make a document you will be using in your course as a certificate of completi
 
 This file must contain some variables to be able to generate personalized content for each users. Variables are typed in the document surrounded by double curly brackets, as explained below.
 
+.. _variables_for_documents:
+
 Variables used for generated document
 **************************************
 
