@@ -106,7 +106,7 @@ Region #disenrollmentReason - #enddisenrollmentReason is used to conditionally d
 **************************************************
 
 
-This notification is sent weekly to learners who are enrolled into course with classroom/virtual classroom activities but havenn't chosen a schedule for those. The notification is used to encourage learners to complete courses.
+This notification is sent weekly to learners who are enrolled into course with classroom/virtual classroom activities but haven't chosen a schedule for those. The notification is used to encourage learners to complete courses.
 Variables that can be used in the body of this e-mail notification are:
 
 	* {{FirstName}} - learners's first name
