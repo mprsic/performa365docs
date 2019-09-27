@@ -138,7 +138,7 @@ Variables that can be used in the body of this e-mail notification are:
 
 Regions #scheduleChange - #endScheduleChange and #locationChange - #endlocationChange are used to conditionally display text. E-mail notification will contain text in those regions depending on what has been changed: schedule date/time, location or both. 
 
-. _N1.6:
+.. _N1.6:
 
 *N1.6 Schedule cancellation notification*
 ******************************************
