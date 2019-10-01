@@ -52,9 +52,20 @@ Edit a Survey Activity
 
 .. note:: When editing a survey activity, you cannot change the SharePoint survey as it would lead to inconsistent survey results.
 
+Create a Global Survey
+***********************
+
+.. tip:: If you want to reuse the same survey across multiple courses, you'll need to create a global survey. Global surveys are not associated to a particular course, instead they can be used in activities which are part of different courses.
+
+To create a global survey, follow these steps:
+
+#. In the first step of **New activity** wizard, fill in all required fields making sure you've chosen **Survey** from the dropdown menu in the **Type** field. 
+#. 
+
+
 
 Delete a Survey Activity
-*********************
+************************
 
 #. On the course page's sub-menu click **Manage** to open a dropdown menu. 
 #. Choose **Activities** from the dropdown menu.
