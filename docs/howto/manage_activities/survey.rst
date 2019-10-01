@@ -65,7 +65,7 @@ To create a global survey, follow these steps:
 #. You will be redirected to SharePoint survey page where you can create your survey.
 #. In the first step of the wizard there is an option to allow multiple responses. Selecting this option will allow users to respond to the same survey multiple times. 
 
-.. image:: catalog-screenshot.png
+.. image:: ShPsurvey.png
    :align: center
 
 .. 
