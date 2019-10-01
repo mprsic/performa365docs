@@ -52,6 +52,7 @@ Edit a Survey Activity
 
 .. note:: When editing a survey activity, you cannot change the SharePoint survey as it would lead to inconsistent survey results.
 
+
 Create a Global Survey
 ***********************
 
