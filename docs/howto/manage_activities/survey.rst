@@ -60,7 +60,12 @@ Create a Global Survey
 To create a global survey, follow these steps:
 
 #. In the first step of **New activity** wizard, fill in all required fields making sure you've chosen **Survey** from the dropdown menu in the **Type** field. 
-#. 
+#. Select the desired survey from the dropdown menu in the **SharePoint surveys** field.
+#. If you want to create new global survey, click on the action button **New general survey**. 
+#. You will be redirected to SharePoint survey page where you can create your survey.
+#. In the first step of the wizard there is an option to allow multiple responses. Selecting this option will allow users to respond to the same survey multiple times. 
+
+.. tip:: Allowing multiple responses to the same survey is tipically what you want when creating global surveys. This is due to the fact that the same set of questions can be used in different courses, so user should be able to take a survey within each course they are enrolled into. However, you should be aware that general surveys cannot be associated with specific course. For example, if you want to ask learners about their learning experience at the end of the course  you create a general survey for that purpose. This way you will be able to create multiple survey activities within different courses using the same set of questions. But the responses you get from surveys will not be linked to any particular course, you will just end up with a bunch of answers to the same questions gathered from different sources. In that case the better option would be to create a regular survey which will be associated with specific course.
 
 
 
