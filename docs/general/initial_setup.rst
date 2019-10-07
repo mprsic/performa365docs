@@ -20,6 +20,7 @@ Optional Steps
 
 Taking these steps will allow you to use additional functionality within your tenant:
 
+#. :ref:`Customize user interface <customize_user_interface>`
 #. :ref:`Manage Business Entities <business_entities>`
 #. :ref:`Manage Locations <manage_locations>`
 #. :ref:`Manage Templates <manage_document_templates>`
