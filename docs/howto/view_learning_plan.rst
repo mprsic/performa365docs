@@ -24,5 +24,5 @@ The right side of the page shows user's courses represented by tiles. Tiles can 
 **Each course tile contains following information:**
 
 #. Course image is displayed to the left. If a certificate is issued at course completion, that information will be shown in a form of a corner banner.
-#. The middle part of the tile contains course **Name** and **Primary delivery model**. The status of each course is represented by a progress bar which shows percantage of course completion. **Enrolled on** below the progress bar shows date and time of enrollment. If the course is completed, that information will be shown as **Due date**.
+#. The middle part of the tile contains course **Name** and **Primary delivery model**. The status of each course is represented by a progress bar which shows percantage of course completion. **Enrolled on** below the progress bar shows date and time of enrollment. If the course is completed, that information will be shown as **Completed on**.
 #. If the user has completed a course and was issued a certificate, on the right side of the tile there will be an image representing that certificate. Clicking on that image will start a download of that course's certificate.
