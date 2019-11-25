@@ -4,6 +4,25 @@
 Product Updates
 ================
 
+Upcoming changes
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+New:
+* If a course has "Course owners can create assignments" option enabled, course owners will be allowed to add/edit/delete assignments for that course.
+* If a tenant has digital signature enabled, it can be included in the templates. A reminder of this feature will appear on add/edit templates wizard as well as the link to the online manual explaining how to add digital signature to the template documents.
+* A fully functional course cloning is now available. Details and limitations are explained :ref:`in this chapter<clone_course>`.
+
+
+Improved:
+* A banner is placed on the course tile in the catalog to indicate if learners are issued a certificate upon completing that course.
+* New graphic elements have been added to course document page.
+
+
+Fixed:
+* Unfinished survey activity can no longer be marked as completed.
+* Deleting a survey type of activity now works properly.
+
+
 Performa 365 v2.0.15
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
