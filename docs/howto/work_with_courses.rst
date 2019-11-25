@@ -90,6 +90,9 @@ Application roles needed to delete a course:
 
 .. note:: You will not be able to delete a course if there is at least one learner enrolled by assignment or at least one learner who has completed the course. 
 
+
+.. _clone_course:
+
 Clone a Course
 ******************
 
