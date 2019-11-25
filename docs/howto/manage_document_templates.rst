@@ -27,6 +27,8 @@ Add a Document Template
 #. **Save** button is enabled if the selected file is in correct format (.docx, for example) and size (smaller than 10MB).
 #. Click **Save**.
 
+.. warning:: If digital signature is enabled in the tenant settings, you can include it in your templates. To add a digital signature, open the Microsoft Word document you wish to use as a template and click where you'd like to add your signature line. From the Word ribbon, select the Insert tab and then click Signature Line in the Text group. A Signature Setup pop-up box appears. Enter your information in the text fields and click OK.  
+
 Edit a Document Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 #. Go to **Manage** > **Templates**.
