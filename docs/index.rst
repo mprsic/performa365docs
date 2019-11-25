@@ -56,5 +56,6 @@ To learn how to do a specific task, such as use the catalog or work with courses
    howto/work_with_certificates
    howto/enroll_learner_to_course
    howto/confirm_attendance
+   howto/work_with_reports
   
    
