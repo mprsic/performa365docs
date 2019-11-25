@@ -1,4 +1,4 @@
-
+.. _exam_admin_exam_creator:
 
 Exam Admin & Exam Creator
 ==================================
