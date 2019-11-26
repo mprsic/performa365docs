@@ -31,3 +31,9 @@ RPT-USR01
 
 By default, this report displays all active systems users. Total number of users is shown in the report header. The information shown in the body of the report consists of rows showing name, email, manager, creation date and last update for each user.
 To view deactivated users, select the checkbox labeled **Show deactivated users** in the reports section and click **Preview**. The report will show all users, both active and deactivated. Deactivated users will be shown in red.
+
+RPT-USR02
+^^^^^^^^^^
+
+By default, this report displays all active system's users grouped by organizational hierarchy. The left side of report shows all company's departments arranged hierarchicaly. Active users (employees) in each department are displayed on the right side of the report. Information on department's employees contains total number of users, as well as name, email, manager and last update for each user within department.
+To view deactivated users, select the checkbox labeled **Show deactivated users** in the reports section and click **Preview**. The report will show all users, both active and deactivated. Deactivated users will be shown in red.
