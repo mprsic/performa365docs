@@ -49,3 +49,12 @@ RPT-USR02
 
 By default, this report displays all active system's users grouped by organizational hierarchy. The left side of report shows all company's departments arranged hierarchicaly. Active users (employees) in each department are displayed on the right side of the report. Information on department's employees contains total number of users, as well as name, email, manager and last update for each user within department.
 To view deactivated users, select the checkbox labeled **Show deactivated users** in the reports section and click **Preview**. The report will show all users, both active and deactivated. Deactivated users will be shown in red.
+
+RPT-M01
+^^^^^^^^^^
+
+This reports shows all system users and their progress in each course they are/were enrolled into. Users are grouped by organizational hierarchy. 
+By default, results are shown only for default (current) learning period and for required courses (the courses the learner was assigned to, not self-enrolled into). These parameters can be changed by selecting/unselecting different values in the parameters areas.
+Information on department's employees contains name of the courses they are/were attending, as well as their current status (finished, started, not started), success (pass, fail or unknown) and due date.
+
+
