@@ -29,4 +29,5 @@ Following reports are currently available on the reports page:
 RPT-USR01
 ^^^^^^^^^^
 
-By default, this report displays all active systems users. Total number of users is shown in the report header. The body of report shows 
+By default, this report displays all active systems users. Total number of users is shown in the report header. The information shown in the body of the report consists of rows showing name, email, manager, creation date and last update for each user.
+To view deactivated users, select the checkbox labeled **Show deactivated users** in the reports section and click **Preview**. The report will show all users, both active and deactivated. Deactivated users will be shown in red.
