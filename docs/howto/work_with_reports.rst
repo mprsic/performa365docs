@@ -20,9 +20,9 @@ Report toolbar
 
 Apart from view and navigation options, report toolbar on the top of each report offers additional features such as:
 
-* Previewing and printing the report directly from the application (1 and 2)
-* Exporting the report in different formats (3)
-* Searching the content of report by entering the keyword in the search pop-up window (4)
+* Preview and print of the report directly from the application (1 and 2)
+* Exporting the report to another file format (3)
+* Searching the content of active report by entering the keyword in the search pop-up window (4)
 
 
 Report parameters
