@@ -15,11 +15,17 @@ Clicking on the **Reports** menu item will redirect the user to the page with al
 Each menu item consists of report's name and short description.
 When selected, report will be displayed to the right.
 
+Report toolbar
+^^^^^^^^^^^^^^
+
+
+
 Report parameters
 ^^^^^^^^^^^^^^^^^^
 
 If a report has parameters, they will be shown to the right of the report in the parameters section. 
-Depending on the nature of the parameter, it will be displayed as a control such as checkbox, dropdown menu, datepicker, etc. To run a report with parameter, the parameter needs to be selected first. Clicking on **Prewiev" button at te bottom of parameters section will generate the report.
+Depending on the nature of the parameter, it will be displayed as a control such as checkbox, dropdown menu, datepicker, etc. To run a report with parameter, the parameter needs to be selected first. Clicking on **Preview** button at the bottom of parameters section will generate the report.
+
 
 Types of reports
 *****************
