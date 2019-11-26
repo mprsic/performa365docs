@@ -18,13 +18,19 @@ When selected, report will be displayed to the right.
 Report toolbar
 ^^^^^^^^^^^^^^
 
+Apart from view and navigation options, report toolbar on the top of each report offers additional features such as:
+
+* Previewing and printing the report directly from the application (1 and 2)
+* Exporting the report in different formats (3)
+* Searching the content of report by entering the keyword in the search pop-up window (4)
 
 
 Report parameters
 ^^^^^^^^^^^^^^^^^^
 
-If a report has parameters, they will be shown to the right of the report in the parameters section. 
-Depending on the nature of the parameter, it will be displayed as a control such as checkbox, dropdown menu, datepicker, etc. To run a report with parameter, the parameter needs to be selected first. Clicking on **Preview** button at the bottom of parameters section will generate the report.
+If a report has parameters, they will be shown to the right of the report in the parameters area. 
+Depending on the nature of the parameter, it will be displayed as a control such as checkbox, dropdown menu, datepicker, etc. To run a report with parameter, the parameter needs to be selected first. Clicking on **Preview** button at the bottom of the parameter area will generate the report.
+You can toggle the visibility of the parameter area by clicking on filter icon in the toolbar.
 
 
 Types of reports
