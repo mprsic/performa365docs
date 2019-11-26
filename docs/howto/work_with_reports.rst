@@ -18,4 +18,15 @@ When selected, report will be displayed to the right.
 Report parameters
 ^^^^^^^^^^^^^^^^^^
 
-If a report has parameters, those will be shown 
+If a report has parameters, they will be shown to the right of the report in the parameters section. 
+Depending on the nature of the parameter, it will be displayed as a control such as checkbox, dropdown menu, datepicker, etc. To run a report with parameter, the parameter needs to be selected first. Clicking on **Prewiev" button at te bottom of parameters section will generate the report.
+
+Types of reports
+*****************
+
+Following reports are currently available on the reports page:
+
+RPT-USR01
+^^^^^^^^^^
+
+By default, this report displays all active systems users. Total number of users is shown in the report header. The body of report shows 
