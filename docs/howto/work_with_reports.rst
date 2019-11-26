@@ -54,7 +54,11 @@ RPT-M01
 ^^^^^^^^^^
 
 This reports shows all system users and their progress in each course they are/were enrolled into. Users are grouped by organizational hierarchy. 
-By default, results are shown only for default (current) learning period and for required courses (the courses the learner was assigned to, not self-enrolled into). These parameters can be changed by selecting/unselecting different values in the parameters areas.
-Information on department's employees contains name of the courses they are/were attending, as well as their current status (finished, started, not started), success (pass, fail or unknown) and due date.
+By default, results are shown only for default (current) learning period and for required courses (the courses the learner was assigned to, not self-enrolled into). These parameters can be changed by selecting/unselecting different values in the parameters areas and clicking **Preview**.
+Information on department's employees contains names of the courses they are/were attending, as well as their current status (finished, started, not started), success (pass, fail or unknown) and due date.
 
+RPT-M02
+^^^^^^^^^^
 
+This report is similar to RPT-M01, the only difference being that it will only show courses which have an exam type of activity. 
+Users are displayed hierarchicaly by department and the information for each user include name of the course(s) they are/were attending, status in the course as well as success. However, there are two additional columns specific for an exam type of activity - **Exam result** (pass/fail) and **Percentage points** for each exam attempt.
