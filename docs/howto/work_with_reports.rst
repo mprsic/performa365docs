@@ -20,7 +20,7 @@ Report toolbar
 
 Apart from view and navigation options, report toolbar on the top of each report offers additional features such as:
 
-* Preview and print of the report directly from the application (1 and 2)
+* Preview (1) and print (2) of the report directly from the application
 * Exporting the report to another file format (3)
 * Searching the content of active report by entering the keyword in the search pop-up window (4)
 
@@ -60,5 +60,11 @@ Information on department's employees contains names of the courses they are/wer
 RPT-M02
 ^^^^^^^^^^
 
-This report is similar to RPT-M01, the only difference being that it will only show courses which have an exam type of activity. 
-Users are displayed hierarchicaly by department and the information for each user include name of the course(s) they are/were attending, status in the course as well as success. However, there are two additional columns specific for an exam type of activity - **Exam result** (pass/fail) and **Percentage points** for each exam attempt.
+This report is similar to RPT-M01, the difference being that it will only show courses which have an exam type of activity. 
+Users are displayed hierarchicaly by department and the information for each user include name of the course(s) they are/were attending, status in the course and success. However, there are two additional columns specific for an exam type of activity - **Exam result** (pass/fail) and **Percentage points** for each exam attempt.
+
+
+RPT-M02
+^^^^^^^^^^
+
+This report is the same as RPT-M02, showing users and all their exam attempts in courses they are/were attending, but in non-hierarchical display. Instead, users are listed alphabetically.
