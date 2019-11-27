@@ -74,3 +74,11 @@ RPT-ER01
 ^^^^^^^^^^
 
 This report shows average rating for selected course. To generate the report, you need to select two parameters from the parameter area - **Course** and **Learning period**, both which must be chosen from the corresponding drop-down menu. After clicking the **Preview** action button, the report will be generated showing average rating and all individual ratings with comments and date of creation for each rating.
+
+
+RPT-EO01
+^^^^^^^^^^
+
+This report shows all exam attempts for selected course during specific time period. To generate the report, three parameters need to be selected - **Course** from the list of courses in the dropdown menu, **Start date** and **End date** both from the date-picker controls. When you are done, click on **Preview** to generate the report.
+The report will show course name and selected time period in the report header. In the body, a table will be generated showing all users who have taken the exam. 
+All user's attempts will be listed showing start time/end time of the attempt, success (pass/fail) and percentage points. Each attempt has an expand button next to it. Clicking on it will open up details of each attempt, showing all exam questions, answer that was given and information wheather it was correct or not, and points scored for that particular question.
