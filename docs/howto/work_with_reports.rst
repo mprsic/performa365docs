@@ -24,6 +24,8 @@ Apart from view and navigation options, report toolbar on the top of each report
 * Exporting the report to another file format (3)
 * Searching the content of active report by entering the keyword in the search pop-up window (4)
 
+.. image:: report1.png
+   :align: center
 
 Report parameters
 ^^^^^^^^^^^^^^^^^^
