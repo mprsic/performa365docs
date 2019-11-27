@@ -36,7 +36,7 @@ You can toggle the visibility of the parameter area by clicking on filter icon i
 Types of reports
 *****************
 
-Following reports are currently available on the reports page:
+The following reports are currently available on the reports page:
 
 RPT-USR01
 ^^^^^^^^^^
@@ -68,3 +68,9 @@ RPT-M02
 ^^^^^^^^^^
 
 This report is the same as RPT-M02, showing users and all their exam attempts in courses they are/were attending, but in non-hierarchical display. Instead, users are listed alphabetically.
+
+
+RPT-ER01
+^^^^^^^^^^
+
+This report shows average rating for selected course. To generate the report, you need to select two parameters from the parameter area - **Course** and **Learning period**, both which must be chosen from the corresponding drop-down menu. After clicking the **Preview** action button, the report will be generated showing average rating and all individual ratings with comments and date of creation for each rating.
