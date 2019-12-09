@@ -16,7 +16,7 @@ Upcoming changes
 
 **Improved:**
 
-* A banner is placed on the course tile in the catalog to indicate if learners are issued a certificate upon completing that course.
+* A banner is placed on the course tile in the catalog to indicate that learners will be issued a certificate upon completing that course.
 * New graphic elements have been added to course document page.
 
 
