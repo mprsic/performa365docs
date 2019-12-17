@@ -17,6 +17,7 @@ Upcoming changes
 
 **Improved:**
 
+* Asyncronous validation has been implemented in forms. For example, if you try to add a course with an existing name, the system will check if the name is available and display a message informing you the name is already in use.
 * A banner is placed on the course tile in the catalog to indicate that learners will be issued a certificate upon completing that course.
 * New graphic elements have been added to course document page.
 
