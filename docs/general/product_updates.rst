@@ -9,6 +9,7 @@ Upcoming changes
 
 **New:**
 
+* A new chapter on :ref:`reports<clone_course>` has been added to the online manual.
 * If a course has "Course owners can create assignments" option enabled, course owners will be allowed to add/edit/delete assignments for that course.
 * If a tenant has digital signature enabled, it can be included in the templates. A reminder of this feature will appear on add/edit templates wizard as well as the link to the online manual explaining how to add digital signature to the template documents.
 * A fully functional course cloning is now available. Details and limitations are explained :ref:`in this chapter<clone_course>`.
@@ -21,6 +22,7 @@ Upcoming changes
 
 
 **Fixed:**
+
 
 * Unfinished survey activity can no longer be marked as completed.
 * Deleting a survey type of activity now works properly.
