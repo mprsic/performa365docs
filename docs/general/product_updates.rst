@@ -17,14 +17,15 @@ Upcoming changes
 
 **Improved:**
 
-* Asyncronous validation has been implemented in forms. For example, if you try to add a course with an existing name, the system will check if the name is available and display a message informing you the name is already in use.
+* Asyncronous validation has been implemented in forms. For example, if you enter a name for the course which is already used for another course in the catalog, the system will check if the name is available and display a message informing you the name is taken.
 * A banner is placed on the course tile in the catalog to indicate that learners will be issued a certificate upon completing that course.
 * New graphic elements have been added to course document page.
 
 
 **Fixed:**
 
-
+* Action *Regenerate certificate* on **Manage course** -> **Enrolled learners** now works as intended. If a course template has been changed, clicking this action button will create a certificate with the new template for selected learner.
+* Expanded tiles for HTML5 and Video types of activities will not collapse if you open them in new window and then return to the application.
 * Unfinished survey activity can no longer be marked as completed.
 * Deleting a survey type of activity now works properly.
 
