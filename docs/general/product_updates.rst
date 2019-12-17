@@ -24,6 +24,7 @@ Upcoming changes
 
 **Fixed:**
 
+* Users will get appropriate notifications when enrolling into a schedule for classroom/virtual classroom type of activities.
 * Action *Regenerate certificate* on **Manage course** -> **Enrolled learners** now works as intended. If a course template has been changed, clicking this action button will create a certificate with the new template for selected learner.
 * Expanded tiles for HTML5 and Video types of activities will not collapse if you open them in new window and then return to the application.
 * Unfinished survey activity can no longer be marked as completed.
