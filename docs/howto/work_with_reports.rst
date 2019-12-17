@@ -1,4 +1,4 @@
-_reports_
+.. _reports:
 
 Work with reports
 ==================
